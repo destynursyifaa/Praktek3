@@ -9,5 +9,12 @@ public class SapiAksi {
 
         
         s.cetakInfo();
+        
+        System.out.println("Jenisnya \t: ");
+        System.out.println(s.getJenis());
+        System.out.println("Warnanya \t: ");
+        System.out.println(s.getWarna());
+        System.out.println("Harganya \t: ");
+        System.out.println(s.getHarga());
     }
 }
