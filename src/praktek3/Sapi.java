@@ -1,9 +1,9 @@
 package praktek3;
 
 public class Sapi {
-    String Jenis;
-    String Warna;
-    Integer Harga;
+    private String Jenis;
+    private String Warna;
+    private Integer Harga;
     
     void cetakInfo(){
         System.out.println("Jenis \t: "+Jenis+"\nWarna \t: "+Warna+"\nHarga \t: "+Harga);
